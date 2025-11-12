@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            NullOperations ops = new NullOperations();
+            ops.PerformNullChecks();
         }
     }
 }
